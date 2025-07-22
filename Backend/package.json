@@ -1,0 +1,14 @@
+{
+  "name": "appwrite-backend-setup",
+  "version": "1.0.0",
+  "description": "Setup scripts for Appwrite backend",
+  "type": "module",
+  "main": "complete-setup.js",
+  "scripts": {
+    "setup": "node complete-setup.js"
+  },
+  "dependencies": {
+    "node-appwrite": "^13.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
